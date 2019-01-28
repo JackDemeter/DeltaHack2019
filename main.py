@@ -43,6 +43,6 @@ for key in dict1:
     data = dict1.get(key)
     crop = img.crop((int(data[0]),int(data[1]),int(data[2]),int(data[3])))
     crop.save("C:/Users/JackD/Desktop/DeltaHacks/DeltaHack2019/SimpleHTR/data/temp"+str(i)+".png")
-    main1.act("C:/Users/JackD/Desktop/DeltaHacks/DeltaHack2019/SimpleHTR/data/temp"+str(i)+".png")
+    SimpleHTRmain.act("C:/Users/JackD/Desktop/DeltaHacks/DeltaHack2019/SimpleHTR/data/temp"+str(i)+".png")
     i += 1
     tf.reset_default_graph()
